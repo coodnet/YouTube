@@ -1,0 +1,47 @@
+.single__video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+}
+
+.simpleSingle {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.iframe {
+  min-width: 65%;
+  min-height: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
+
+.text-red{
+  font-size: 20px;
+  color: crimson;
+  font-weight: 700;
+}
+
+.offer__videos__singlePg {
+  width: 34%;
+  min-height: 100%;
+  overflow: scroll;
+}
+
+
+.navlink{
+  font-size: 20px;
+  font-weight: 600;
+  color: blue;
+}
+.navlink:hover{
+  text-decoration: 2px underline;
+}
